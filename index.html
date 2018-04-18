@@ -142,7 +142,7 @@
                </section>
                <section>
                   <h2>Concrete gravity flow</h2>
-                  <video  width="100%" autoplay controls loop>
+                  <video  width="35%" autoplay controls loop>
                      <source src="media/concrete-gravity-flow.webm" type="video/webm">
                      Your browser does not support the video tag.
                   </video>
@@ -150,7 +150,7 @@
                </section>
                <section>
                   <h2>Concrete gravity flow with obstacle</h2>
-                  <video  width="100%" autoplay controls loop>
+                  <video  width="40%" autoplay controls loop>
                      <source src="media/concrete-gravity-flow-obstacle.webm" type="video/webm">
                      Your browser does not support the video tag.
                   </video>
@@ -158,7 +158,7 @@
                </section>
                <section>
                   <h2>Slump cone MPM simulation</h2>
-                  <video  width="100%" autoplay controls loop>
+                  <video  width="70%" autoplay controls loop>
                      <source src="media/mpm-slump-cone.webm" type="video/webm">
                      Your browser does not support the video tag.
                   </video>
@@ -320,50 +320,6 @@
                      <input type="button" id="pause-button" onclick="PauseVideo('a04');PauseVideo('a4')"; this.disable=true; play-button.disable=false; value="Pause" />
                   </div>
                </section>
-               <!-- Collapse in a fluid runout evolution -->
-               <section>
-                  <h2>Collapse in a fluid: Runout evolution</h2>
-                  <div style="float: left; width: 50%;">
-                     <figure>
-                        <img style = "border:0;" src="images/runout_a04f.png" width="100%">
-                        <figcaption>
-                           a = 0.4
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <div style="float: right; width: 50%;">
-                     <figure>
-                        <img style = "border:0;" src="images/runout_a4f.png" width="100%">
-                        <figcaption>
-                           a = 4
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <div style="clear:both; text-align: center">
-                     <br />
-                     Critical time $\tau_c=\sqrt{H/g}$ (Staron and Hinch, 2005) <br />
-                     where, H = Height of the granular pile.
-                  </div>
-               </section>
-               <!-- LBM DEM a8 -->
-               <section>
-                  <h3>LBM - DEM simulation of granular collapse in a fluid</h3>
-                  <br/>
-                  <video  width="100%" controls loop>
-                     <source src="media/a8.webm" type="video/webm">
-                     Your browser does not support the video tag.
-                  </video>
-                  <br/>
-                  <br/>aspect ratio 'a' of 8 <br />
-               </section>
-               <!-- Runout v aspect ratio -->
-               <section>
-                  <h2>Runout: dry vs fluid</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_fluid_dry.png" width="80%">
-                     <figcaption style = "font-size: 80%; text-align: center; "><br />Dry collapse flowed further than the underwater collapse</figcaption>
-                  </figure>
-               </section>
                <!-- Hydrodynamic radius -->
                <section>
                   <h2>Collapse in a fluid: Effect of permeability</h2>
@@ -413,27 +369,6 @@
                   <figure>
                      <img style = "border:0;" src="images/runout_a08_dense.png" width="80%">
                      <figcaption>aspect ratio 0.8</figcaption>
-                  </figure>
-               </section>
-               <!-- Effect of permeability -->
-               <section>
-                  <h2>Effect of permeability: runout</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_fluid.png" width="80%">
-                  </figure>
-               </section>
-               <!-- Effect of permeability -->
-               <section>
-                  <h2>Effect of permeability: kinetic energy</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/ke_dry_fluid.png" width="70%">
-                  </figure>
-               </section>
-               <!-- Effect of permeability -->
-               <section>
-                  <h2>Effect of permeability: runout</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_energy.png" width="80%">
                   </figure>
                </section>
                <!-- Effect of permeability -->
@@ -496,43 +431,13 @@
                      <img style = "border:0;" src="images/permeability_stress.png" width="55%">
                   </figure>
                </section>
-               <!-- Effect of permeability -->
-               <section>
-                  <h2>Collapse in a fluid: Effect of permeability</h2>
-                  <div style="float: left; width: 100%;">
-                     <figure>
-                        <img style = "border:0;" src="images/pressure-velocity.png" width="55%">
-                        <figcaption>
-                           normalised pressure vs. velocity
-                        </figcaption>
-                     </figure>
-                  </div>
-                  <!--
-                  <div style="float: right; width: 50%;">
-                     <figure>
-                        <img style = "border:0;" src="images/shear-velocity.png" width="100%">
-                        <figcaption>
-                           normalised shear vs. velocity
-                        </figcaption>
-                     </figure>
-                  </div>
-                -->
-               </section>
+
                <!-- Effect of permeability -->
                <section>
                   <h2>Effect of permeability: pore-water pressure</h2>
                   <figure>
                      <img style = "border:0;" src="images/permeability_pwp.png" width="70%">
                   </figure>
-               </section>
-               <!-- Effect of permeability -->
-               <section>
-                  <h2>Effect of permeability: effective stress</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/effective_stress_a08.png" width="70%">
-                  </figure>
-                  High permeability - high effective stresses at the flow front (frictional resistance)<br/>
-                  Low permeability - no effective stresses at the flow front (hydroplaning)
                </section>
                <!-- Effect of permeability -->
                <section>
@@ -557,14 +462,6 @@
                     <br/>High permeable flow front experiences drag, while low permeable flow experiences hydroplaning.
                   </div>
                </section>
-               <!-- Runout v aspect ratio -->
-               <section>
-                  <h2>Effect of permeability: runout (loose)</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_a08_loose.png" width="80%">
-                     <figcaption>aspect ratio 0.8 (loose)</figcaption>
-                  </figure>
-               </section>
                <!-- Effect of slope -->
                <section>
                   <h3>Collapse on an inclined plane</h3>
@@ -576,39 +473,7 @@
                   <br/>
                   <br/>aspect ratio 'a' of 6 on a slope of 5*<br />
                </section>
-               <!-- Collapse of a 0.8 on slope 5 -->
-               <section>
-                  <h2>Collapse of a dense column on an inclined plane</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/dense_s5_r09_1.png" width="75%">
-                     <figcaption>aspect ratio 'a' of 0.8 on a slope of 5* (dense)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slope 5 -->
-               <section>
-                  <h2>Collapse of a dense column on an inclined plane</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/dense_s5_r09_2.png" width="75%">
-                     <figcaption>aspect ratio 'a' of 0.8 on a slope of 5* (dense)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: dense -->
-               <section>
-                  <h2>Collapse of a dense column on slopes: runout</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_dense_slope.png" width="80%">
-                     <figcaption>aspect ratio 'a' of 0.8 (dense)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose-->
-               <section>
-                  <h2>Collapse of a loose column on slopes: runout</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/runout_loose_slope.png" width="80%">
-                     <figcaption>aspect ratio 'a' of 0.8 (loose)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
+              <!-- Collapse of a 0.8 on slopes: loose v dense -->
                <section>
                   <h2>Loose v dense: Initiation phase</h2>
                   <figure>
@@ -658,54 +523,6 @@
                      Water entrainment front (~15d length) at a slope of 5*
                   </div>
                </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Loose v dense: Runout phase</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/fr_slope.png" width="80%">
-                     <figcaption>Froude's number - hydroplaning ('a' of 0.8)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Collapse on slopes: loose v dense</h2>
-                  <div style="float: left; width: 49%;">
-                     <figure>
-                        <img style = "border:0;" src="images/ke_loose_slope.png" width ="100%">
-                        <figcaption style = "font-size: 80%; text-align: center; ">Loose</figcaption>
-                     </figure>
-                  </div>
-                  <div style="float: right; width: 49%;">
-                     <figure>
-                        <img style = "border:0;" src="images/ke_dense_slope.png" width = "100%">
-                        <figcaption style = "font-size: 80%; text-align: center;">Dense</figcaption>
-                     </figure>
-                  </div>
-                  <br/>Kinetic energy evolution
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Loose v dense: Settlement phase</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/voronoi_slope_dense_loose.png" width="80%">
-                     <figcaption>volume evolution ('a' of 0.8)</figcaption>
-                  </figure>
-               </section>
-               <!-- Collapse of a 0.8 on slopes: loose v dense -->
-               <section>
-                  <h2>Collapse on slopes: loose v dense</h2>
-                  <figure>
-                     <img style = "border:0;" src="images/slope_runout.png" width="80%">
-                     <figcaption>runout evolution ('a' of 0.8)</figcaption>
-                  </figure>
-               </section>
-               <!-- CPU v GPU -->
-               <!--
-                  <section>
-                    <h3>CPU v GPU</h3>
-                    <img style = "border:0;" src="images/cpu_gpu.png" width ="100%">
-                  </section>
-                  -->
                <!-- GPU -->
                <section>
                   <h3>LBM-DEM Multi-GPU implementation</h3>
