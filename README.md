@@ -1,8 +1,8 @@
 # Large deformation modelling in geomechanics
-## MPM and LBM-DEM
-> Krishna Kumar (2018), UT Austin, USA. 5 - 6 February 2018.
+## MPM, LBM-DEM and LEM
+> Krishna Kumar (2018), 18 April 2018.
 
-[https://kks32-slides.github.io/2018-texas/#/](https://kks32-slides.github.io/2018-texas/#/)
+[https://kks32-slides.github.io/2018-numerical-modelling/#/](https://kks32-slides.github.io/2018-numerical-modelling/#/)
 
 [![License](https://img.shields.io/badge/license-cc--by--4.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 
